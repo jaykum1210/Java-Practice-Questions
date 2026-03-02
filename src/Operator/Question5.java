@@ -3,6 +3,7 @@ package Operator;
 import java.util.Scanner;
 
 public class Question5 {
+    // Remainder of two numbers
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter First Number : ");
