@@ -3,6 +3,7 @@ package Operator;
 import java.util.Scanner;
 
 public class Question30 {
+    // Percentage of 5 subjects
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int sum = 0 , i = 0;
