@@ -28,7 +28,7 @@ public class Question16 {
                     break;
                 }
             }
-            if(!flag) continue;   // skip repeated characters
+            if(!flag) continue;
             for (int j = i+1; j < len1; j++){
                 if (ch == a.charAt(j)){
                     count1++;
