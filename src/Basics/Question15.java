@@ -3,6 +3,7 @@ package Basics;
 import java.util.Scanner;
 
 public class Question15 {
+    // Power
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Base : ");
