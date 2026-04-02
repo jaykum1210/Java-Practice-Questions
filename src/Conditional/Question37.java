@@ -8,7 +8,7 @@ public class Question37 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Marks : ");
         int a = sc.nextInt();
-        boolean g;
+        boolean g = false;
         if (a<=30 && a>25){
             System.out.println("Grace : ");
             g = sc.nextBoolean();
