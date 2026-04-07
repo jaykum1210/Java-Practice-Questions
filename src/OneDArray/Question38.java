@@ -1,0 +1,27 @@
+package OneDArray;
+
+import java.util.Scanner;
+
+public class Question38 {
+    //Max Difference
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Size : ");
+        int a = sc.nextInt();
+        int[] arr = new int[a];
+        System.out.println("Enter " + a + " Elements : ");
+        for (int i = 0;i<a;i++){
+            arr[i] = sc.nextInt();
+        }
+        int max = 0;
+        for (int i = 0;i<a-1;i++){
+            for (int j = i+1;j<a;j++){
+                int b = Math.abs(arr[i]-arr[j]);
+                if (max<b){
+                    max = b;
+                }
+            }
+        }
+        System.out.println("Maximum Difference : " +max);
+    }
+}
