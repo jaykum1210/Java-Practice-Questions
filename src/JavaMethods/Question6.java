@@ -3,6 +3,7 @@ package JavaMethods;
 import java.util.Scanner;
 
 public class Question6 {
+    // String Length
     public int length(String str){
         int len = 0;
         while (true){

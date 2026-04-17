@@ -3,6 +3,7 @@ package JavaMethods;
 import java.util.Scanner;
 
 public class Question12 {
+    //Palindrome Check
     String palindrome(int num){
         int ori = num;
         int temp = 0;
@@ -16,7 +17,7 @@ public class Question12 {
         }
         return "Not A Palindrome";
     }
-    //Palindrome Check
+
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         Question12 q = new Question12();

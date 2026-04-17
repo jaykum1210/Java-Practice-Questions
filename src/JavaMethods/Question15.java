@@ -3,6 +3,7 @@ package JavaMethods;
 import java.util.Scanner;
 
 public class Question15 {
+    //Average of Array
     float average(int[] arr){
         int len = arr.length;
         int sum = 0;
@@ -11,7 +12,7 @@ public class Question15 {
         }
         return (float) sum/len;
     }
-    //Average of Array
+
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         Question15 q = new Question15();

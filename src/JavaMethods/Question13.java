@@ -3,6 +3,7 @@ package JavaMethods;
 import java.util.Scanner;
 
 public class Question13 {
+    //Minimum Element if Array
     int minimum(int[] arr){
         int len = arr.length;
         int min = arr[0];
@@ -13,7 +14,7 @@ public class Question13 {
         }
         return min;
     }
-    //Minimum Element if Array
+
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         Question13 q = new Question13();

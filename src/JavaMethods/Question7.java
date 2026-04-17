@@ -3,6 +3,7 @@ package JavaMethods;
 import java.util.Scanner;
 
 public class Question7 {
+    //Reverse String
     public String reverse(String str){
         String temp = "";
         int len = str.length();
@@ -11,7 +12,7 @@ public class Question7 {
         }
         return temp;
     }
-    //Reverse String
+
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         Question7 q = new Question7();

@@ -3,6 +3,7 @@ package JavaMethods;
 import java.util.Scanner;
 
 public class Question8 {
+    //Sum of Array
     int sum(int[] arr){
         int len = arr.length;
         int total = 0;
@@ -11,7 +12,6 @@ public class Question8 {
         }
         return total;
     }
-    //Sum of Array
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         Question8 q = new Question8();

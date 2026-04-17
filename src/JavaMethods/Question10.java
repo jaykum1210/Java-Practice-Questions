@@ -3,12 +3,13 @@ package JavaMethods;
 import java.util.Scanner;
 
 public class Question10 {
+    //Swap Two Numbers
     void swap(int[] arr){
         int temp = arr[0];
         arr[0] = arr[1];
         arr[1] = temp;
     }
-    //Swap Two Numbers
+
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         Question10 q = new Question10();
